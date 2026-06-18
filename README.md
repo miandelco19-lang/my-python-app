@@ -1,6 +1,6 @@
-# Options Trading Analytics Dashboard
+﻿# Options Trading Analytics Dashboard
 
-A Python command-line app that generates sample options trading data, calculates portfolio risk metrics, and prints an options analytics dashboard in the terminal.
+A Streamlit dashboard that generates sample options trading data, calculates portfolio risk metrics, and displays an options analytics dashboard in your browser.
 
 ## What It Does
 
@@ -17,36 +17,19 @@ A Python command-line app that generates sample options trading data, calculates
 
 ## Setup
 
-Clone the repository:
-
-```powershell
-git clone https://github.com/miandelco19-lang/my-python-app.git
-cd my-python-app
-Create a virtual environment:
-
-```powershell
-python -m venv .venv
-```
-
-Activate it on Windows PowerShell:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
 Install dependencies:
 
 ```powershell
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Run The App
 
 ```powershell
-python app.py
+streamlit run app.py
 ```
 
-The dashboard output will appear in your terminal.
+Your browser will open the dashboard automatically. If it does not, copy the local URL shown in PowerShell and paste it into your browser.
 
 ## Notes
 
