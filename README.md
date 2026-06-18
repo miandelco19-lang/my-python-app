@@ -22,3 +22,32 @@ Clone the repository:
 ```powershell
 git clone https://github.com/miandelco19-lang/my-python-app.git
 cd my-python-app
+Create a virtual environment:
+
+```powershell
+python -m venv .venv
+```
+
+Activate it on Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+Install dependencies:
+
+```powershell
+pip install -r requirements.txt
+```
+
+## Run The App
+
+```powershell
+python app.py
+```
+
+The dashboard output will appear in your terminal.
+
+## Notes
+
+This app currently uses generated sample data. It does not connect to live market data yet.
